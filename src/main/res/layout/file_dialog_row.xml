@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="@drawable/fd_item_bg"
+                tools:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/fdrowimage"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        tools:background="@drawable/icon_file"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView android:text="@+id/fdrowtext"
+              android:layout_width="wrap_content"
+              android:id="@+id/fdrowtext"
+              android:layout_toRightOf="@+id/fdrowimage"
+              android:layout_alignTop="@+id/fdrowimage"
+              android:layout_alignBottom="@+id/fdrowimage"
+              android:gravity="center_vertical"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:layout_centerVertical="true"
+              tools:text="test.txt"
+              android:textColor="@android:color/black"
+        />
+
+    <ImageView
+        android:id="@+id/checkedImage"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_checkmark"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

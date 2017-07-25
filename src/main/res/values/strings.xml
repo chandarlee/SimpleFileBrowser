@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">File dialog</string>
+    <string name="location">Location: %s</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <color name="gray">#ffff0000</color>
+    <color name="grey">#80FFFFFF</color>
+    <string name="err">Error</string>
+    <string name="cannot_create_file">Error occurs while creating file</string>
+    <string name="cannot_create_dir">Error occurs while creating directory</string>
+    <string name="create_file">Enter new file name:</string>
+    <string name="create_dir">Enter new directory name:</string>
+</resources>

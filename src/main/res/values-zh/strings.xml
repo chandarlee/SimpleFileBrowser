@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">File dialog</string>
+    <string name="location">当前目录: %s</string>
+    <string name="cant_read_folder">无法读取该目录！</string>
+    <string name="select">确定</string>
+    <string name="cancel">取消</string>
+    <string name="create">创建</string>
+    <string name="no_data">获取不到目录和文件信息！</string>
+    <string name="err">错误</string>
+    <string name="cannot_create_file">无法创建对应文件</string>
+    <string name="cannot_create_dir">无法创建对应目录</string>
+    <string name="create_file">新的文件名：</string>
+    <string name="create_dir">新的目录名：</string>
+</resources>
